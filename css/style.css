@@ -132,14 +132,14 @@ footer > section:first-of-type {
 
 .home main section article:last-of-type {
     width: 65vw;
-    height: 50vh;
+    height: 78vh;
 
     display: flex;
     align-items: baseline;
 }
 
 .home main section article:last-of-type img {
-    height: 18em;
+    height: 25em;
 
     position: absolute;
     bottom: 0;
