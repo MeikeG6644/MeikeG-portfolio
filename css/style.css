@@ -1,0 +1,147 @@
+:root {
+    --background-color: #FCFCFC;
+    --background: #DADEF2;
+    --accent-color: #3E54CB;
+    --text-dark: #1F1F1F;
+    --text-light: #FCFCFC;
+    --hover: #001799;
+}
+
+body {
+    background-color: var(--background-color);
+
+    padding: 0;
+    margin: 0;
+
+    font-family: 'Montserrat', sans-serif;
+    color: var(--text-dark);
+
+    height: 100vh;
+}
+
+
+header {
+    background-color: var(--background);
+}
+
+header nav {
+    margin: 0em 4.5em;
+    padding-top: 2em;
+
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
+
+header nav a {
+    text-decoration: none;
+}
+
+header nav a h1 {
+    margin: 0;
+    padding: 0;
+
+    color: var(--accent-color);
+    font-size: 30px
+}
+
+header nav a h1::first-letter {
+    color: var(--text-dark);
+    letter-spacing: -0.2em;
+}
+
+header nav div {
+    display: flex;
+    justify-content: space-between;
+
+    width: 30vw;
+}
+
+header nav div a {
+    font-weight: 600;
+    color: var(--text-dark);
+    font-size: 18px;
+
+    transition: 0.5s;
+}
+
+header nav div a:hover {
+    color: var(--hover);
+
+    transition: 0.5s;
+}
+
+
+
+
+main {
+    background-color: var(--background);
+
+    height: 100vh;
+}
+
+footer {
+    background-color: var(--text-dark);
+    color: var(--text-light);
+}
+
+footer > section:first-of-type {
+    display: flex;
+}
+
+
+
+
+
+.home {
+    overflow: hidden;
+}
+
+.home main section {
+    margin: 0em 4.5em;
+    padding-top: 4.5em;
+
+    position: relative;
+}
+
+.home main section article:first-of-type {
+    width: 35vw;
+}
+
+.home main section article:first-of-type h4 {
+    margin: 0;
+
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.home main section article:first-of-type h2 {
+    margin-top: 1.5em;
+
+    font-size: 3em;
+}
+
+.home main section article:first-of-type h2 span {
+    color: var(--accent-color);
+}
+
+
+
+
+
+.home main section article:last-of-type {
+    width: 65vw;
+    height: 30.5vh;
+
+    display: flex;
+    align-items: baseline;
+}
+
+.home main section article:last-of-type img {
+    height: 18em;
+
+    position: absolute;
+    bottom: 0;
+    left: 56%;
+}
