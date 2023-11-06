@@ -132,7 +132,7 @@ footer > section:first-of-type {
 
 .home main section article:last-of-type {
     width: 65vw;
-    height: 30.5vh;
+    height: 50vh;
 
     display: flex;
     align-items: baseline;
